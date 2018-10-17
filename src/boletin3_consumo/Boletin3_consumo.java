@@ -20,7 +20,7 @@ public class Boletin3_consumo {
    
         //Obxecto Consume con el constructor con parámetros.
    Consumo consumo2 = new Consumo(50f, 20f ,100f,1.57f);
-   //Consumo medio OBxect2
+   //Consumo medio OBxect2 
    float resposta= consumo2.consumoMedio();
    System.out.print("\nConsumo Medio2 = "+ resposta);
   //Variamos litros consumidos.

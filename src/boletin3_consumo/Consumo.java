@@ -7,7 +7,7 @@ package boletin3_consumo;
  */
 public class Consumo {
     //Atributos:
-    private float kilometros,litros, Vmed,pGas, cm;
+    private float kilometros,litros, Vmed,pGas;
     
     //Constructores:
     public Consumo(){   //Sin parametros   
@@ -27,11 +27,12 @@ public class Consumo {
     }
     
     public float consumoMedio(){
-          cm = litros * 100 / kilometros;
+          float cm = litros * 100 / kilometros;
           return cm;
     }
     
      public float consumoEuros(){
+         float cm = consumoMedio();
          float cEu = cm * pGas;
          return cEu;           
     }
